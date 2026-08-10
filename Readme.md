@@ -31,7 +31,7 @@ Diagnostics and Gas Filters showed controlled pricing headroom relative to the c
 
 Across the broader portfolio, execution readiness was a more important constraint than pricing alone.
 
-1. Business Problem
+# 1. Business Problem
 
 Product Marketing teams need to make decisions across multiple dimensions simultaneously.
 
@@ -50,11 +50,11 @@ Which product, region and quarter combinations should Product Marketing prioriti
 
 The final solution combines these questions into a single analytical decision framework.
 
-2. Project Objectives
+# 2. Project Objectives
 
 The project was designed around three analytical pillars.
 
-Pillar 1: Commercial and Pricing Analytics
+# Pillar 1: Commercial and Pricing Analytics
 
 The objective was to establish standardized pricing metrics and identify discount governance opportunities.
 
@@ -69,7 +69,8 @@ Revenue concentration
 Price versus external input cost index
 Elasticity analysis
 Pricing scenario analysis
-Pillar 2: Product Lifecycle and Execution Analytics
+
+# Pillar 2: Product Lifecycle and Execution Analytics
 
 The objective was to understand whether products and initiatives were operationally ready to support growth.
 
@@ -85,7 +86,8 @@ Execution scoring
 Product lifecycle analysis
 Initiative risk
 AOS Health scoring
-Pillar 3: Competitive Intelligence
+
+# Pillar 3: Competitive Intelligence
 
 The objective was to introduce external market context into product marketing decisions.
 
@@ -100,7 +102,8 @@ Industry growth
 CAGR estimates
 Product to industry mapping
 Pricing recommendations
-3. Analytical Architecture
+
+# 3. Analytical Architecture
 
 The project follows a layered analytical architecture.
 
@@ -140,7 +143,7 @@ PostgreSQL was used as the analytical layer for reusable SQL transformations, ag
 
 Power BI was used as the executive presentation and decision consumption layer.
 
-4. Technology Stack
+# 4. Technology Stack
 Technology	Purpose
 Python	Data generation, ingestion, statistical modelling and analytical processing
 PostgreSQL	Analytical database and SQL transformation layer
@@ -151,7 +154,8 @@ Statsmodels	Elasticity modelling and statistical analysis
 Excel	Competitive intelligence source datasets
 Git	Version control
 GitHub	Project repository and reproducibility
-5. Data Scope
+
+# 5. Data Scope
 
 The commercial pricing dataset contained 4,787 transaction records.
 
@@ -192,7 +196,7 @@ The first pillar established the commercial baseline.
 
 The primary objective was to determine whether pricing performance and discount behaviour created opportunities for Product Marketing and commercial teams.
 
-Key Metrics
+# Key Metrics
 
 Average discount: 12.88%
 
@@ -202,7 +206,7 @@ Average quantity: 80.04
 
 Total revenue: $725,932,542.73
 
-Price Realization
+# Price Realization
 
 The price realization analysis compared realized net economics against reference or list pricing across:
 
@@ -214,7 +218,7 @@ Quarter
 
 This created a standardized view of realized pricing performance.
 
-Discount Governance
+# Discount Governance
 
 The discount matrix analyzed average discount levels across commercial dimensions.
 
@@ -222,13 +226,13 @@ The analysis was extended into discount creep detection using quarterly comparis
 
 This allowed the project to identify whether discounting was structurally increasing rather than simply observing the average discount.
 
-Revenue Concentration
+# Revenue Concentration
 
 A revenue Pareto analysis ranked SKUs by revenue and calculated cumulative contribution.
 
 This provided a mechanism for identifying products that materially influence portfolio revenue and therefore deserve stronger pricing governance.
 
-External Cost Benchmark
+# External Cost Benchmark
 
 The raw material index was aggregated into quarterly observations and used as an external economic benchmark.
 
@@ -236,7 +240,7 @@ The purpose was not to automatically translate input cost movements into price i
 
 Instead, the index was used as supporting evidence alongside realized pricing, demand and competitive positioning.
 
-7. Pricing Elasticity Analysis
+# 7. Pricing Elasticity Analysis
 
 A price elasticity model was developed to test the relationship between price and quantity.
 
@@ -277,7 +281,7 @@ A non intuitive result should trigger model diagnosis rather than be hidden.
 
 The final project therefore treats elasticity as supporting evidence rather than as a causal pricing recommendation.
 
-8. Pillar 2: Product Lifecycle and Execution Analytics
+# 8. Pillar 2: Product Lifecycle and Execution Analytics
 
 The second pillar addressed an important commercial problem.
 
@@ -285,7 +289,7 @@ A product can have attractive pricing or competitive positioning but still be un
 
 The project therefore created an execution health framework.
 
-Core Metrics
+# Core Metrics
 Revenue attainment
 On time delivery
 Backlog
@@ -334,7 +338,7 @@ Red
 
 These thresholds and weights represent the analytical framework used for the case study and would require stakeholder validation before production deployment.
 
-9. Product Family Results
+# 9. Product Family Results
 Product Family	Execution	Gross Margin	Adoption
 Sterile Sets	0.86	42.21%	72.46%
 Pegasus	0.85	38.02%	72.58%
@@ -350,7 +354,7 @@ Gas Filters represented the clearest internal execution concern because it had t
 
 Diagnostics showed attractive economics but weaker execution than the strongest performing product families.
 
-10. Pillar 3: Competitive Intelligence
+# 10. Pillar 3: Competitive Intelligence
 
 The third pillar introduced external market context.
 
@@ -389,7 +393,7 @@ Single use Filtration	9.90%	10.40%
 
 Industry growth was treated as contextual intelligence rather than an automatic pricing trigger.
 
-11. Competitive Pricing Results
+# 11. Competitive Pricing Results
 Product	Pall Price	Competitor Average	Price Gap
 Diagnostics	$2,460	$2,476.67	−0.67%
 Gas Filters	$1,895	$1,903.75	−0.46%
@@ -401,7 +405,7 @@ The results show that the portfolio was broadly aligned with the competitive ben
 
 The portfolio therefore did not support a blanket price increase.
 
-12. Pricing Opportunity Analysis
+# 12. Pricing Opportunity Analysis
 
 The competitive benchmark was converted into explicit pricing headroom.
 
@@ -423,7 +427,7 @@ Sterile Sets was price aligned with the benchmark.
 
 Cadence was already slightly above the benchmark.
 
-13. Cross Pillar Decision Engine
+# 13. Cross Pillar Decision Engine
 
 The major objective of the project was to avoid treating the three pillars as independent analyses.
 
@@ -453,7 +457,7 @@ This produced 104 strategic combinations.
 
 Each combination contains commercial, operational and competitive signals.
 
-14. Strategic Priority Score
+# 14. Strategic Priority Score
 
 The final strategic decision layer produced:
 
@@ -472,7 +476,7 @@ The medium priority segment represented 60.58%.
 
 The low priority segment represented 5.77%.
 
-15. Product Family Strategic Ranking
+# 15. Product Family Strategic Ranking
 Product Family	Average Score	Maximum Score
 Pegasus	83.75	90
 Diagnostics	79.38	85
@@ -494,7 +498,7 @@ Strategic priority was deliberately kept separate from pricing recommendation.
 
 A high strategic score does not automatically mean that a product should be repriced.
 
-16. Final PMM Action Distribution
+# 16. Final PMM Action Distribution
 
 The final decision engine produced seven PMM action categories.
 
@@ -511,7 +515,7 @@ The first two categories together represented 59.62% of the strategic decision s
 
 This indicates that execution readiness was the dominant constraint across the portfolio.
 
-17. Key Product Recommendations
+# 17. Key Product Recommendations
 Diagnostics
 
 Diagnostics showed a 0.67% price gap below the competitor benchmark, $16.67 of modeled headroom and 18% observed market share with rank 3.
@@ -556,7 +560,7 @@ Recommendation:
 
 Maintain current pricing while monitoring performance.
 
-18. Power BI Dashboard
+# 18. Power BI Dashboard
 
 The final Power BI solution contains four pages.
 
@@ -604,7 +608,7 @@ Strategic priority by product family
 
 PostgreSQL was used as the central analytical layer.
 
-Key SQL techniques included:
+# Key SQL techniques included:
 
 Common Table Expressions
 Window functions
@@ -637,7 +641,8 @@ competitive_intelligence_summary
 final_pricing_recommendation
 vw_pmm_growth_enhanced
 vw_pmm_strategic_decision
-20. Python Architecture
+
+# 20. Python Architecture
 
 Python was used for:
 
@@ -653,7 +658,7 @@ Output generation
 
 Python outputs were then integrated into the PostgreSQL analytical layer and Power BI.
 
-21. Data Quality and Validation
+# 21. Data Quality and Validation
 
 The project included explicit validation rather than assuming that successful SQL execution meant that the analysis was correct.
 
@@ -688,7 +693,7 @@ Python database integration issues
 
 These issues were resolved through database inspection, explicit type alignment, qualified references and validation queries.
 
-22. Data Provenance and Limitations
+# 22. Data Provenance and Limitations
 
 This project is an independent analytical case study.
 
@@ -706,7 +711,7 @@ The project does not claim to represent actual internal Pall or Danaher commerci
 
 Public company context and product related information were used only as appropriate contextual inputs.
 
-23. Productionization Roadmap
+# 23. Productionization Roadmap
 
 The current project is analytically complete.
 
@@ -724,7 +729,7 @@ Scenario sensitivity testing
 
 These steps would be required to move the case study from an analytical prototype to an enterprise production system.
 
-24. Repository Structure
+# 24. Repository Structure
 PALL-BIOTECH-PMM-ANALYTICS-CASE-STUDY
 
 1.Pricing
@@ -759,7 +764,7 @@ Readme.md
 
 The repository separates source data, analytical code, SQL transformations, outputs and Power BI dashboards.
 
-25. Reproducibility
+# 25. Reproducibility
 
 The project is structured so that the analytical process can be reproduced from the repository.
 
@@ -787,7 +792,7 @@ Power BI
 
 Database credentials and environment specific configuration should be supplied through environment variables rather than committed to the repository.
 
-26. Business Impact
+# 26. Business Impact
 
 The project demonstrates how Product Marketing Analytics can move from descriptive reporting to structured decision support.
 
@@ -810,7 +815,7 @@ The primary value is not a single pricing number.
 
 The value is the decision framework that connects commercial opportunity with operational readiness and external market evidence.
 
-27. Skills Demonstrated
+# 27. Skills Demonstrated
 Analytics
 Product Marketing Analytics
 Pricing Analytics
@@ -843,7 +848,8 @@ Operational KPI Monitoring
 Market Intelligence
 Executive Reporting
 Stakeholder Decision Support
-28. Conclusion
+
+# 28. Conclusion
 
 This project demonstrates an end to end Product Marketing Analytics workflow.
 
