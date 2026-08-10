@@ -816,41 +816,9 @@ The primary value is not a single pricing number.
 
 The value is the decision framework that connects commercial opportunity with operational readiness and external market evidence.
 
-# 27. Skills Demonstrated
-Analytics
-Product Marketing Analytics
-Pricing Analytics
-Competitive Intelligence
-Portfolio Analytics
-Lifecycle Analytics
-Business Analysis
-Strategic Decision Support
-Technical
-Python
-Pandas
-PostgreSQL
-SQL
-Common Table Expressions
-Window Functions
-Statistical Modelling
-Power BI
-DAX
-Data Visualization
-Data Validation
-Git
-GitHub
-Business
-Pricing Governance
-Discount Governance
-Product Lifecycle Management
-Competitive Benchmarking
-Revenue Performance
-Operational KPI Monitoring
-Market Intelligence
-Executive Reporting
-Stakeholder Decision Support
 
-# 28. Conclusion
+
+# 27. Conclusion
 
 This project demonstrates an end to end Product Marketing Analytics workflow.
 
