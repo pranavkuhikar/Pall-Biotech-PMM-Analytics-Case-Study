@@ -604,11 +604,12 @@ Average execution score
 Recommended PMM actions
 Decision priority
 Strategic priority by product family
-19. SQL Architecture
+
+# 19. SQL Architecture
 
 PostgreSQL was used as the central analytical layer.
 
-# Key SQL techniques included:
+Key SQL techniques included:
 
 Common Table Expressions
 Window functions
