@@ -1,0 +1,16 @@
+lifecycle_stage,business_unit,initiatives,avg_aos,revenue_attainment_pct,avg_otd,avg_backlog,avg_adoption,avg_margin,total_revenue
+Mature,Biopharma Consumables,6,0.934,101.03,97.22,5.46,78.03,37.48,26888357.92
+Mature,Medical,8,0.934,100.92,96.71,9.26,77.99,41.84,46102925.62
+Mature,Industrial,5,0.911,100.87,96.69,9.58,78.02,30.07,20653774.95
+Mature,Food & Beverage,5,0.907,100.9,96.79,8.53,77.1,27.8,27943223.46
+Growth,Medical,5,0.906,101.52,93.48,23.04,76.21,41.64,37251053.61
+Growth,Biopharma Consumables,10,0.894,101.47,92.94,25.48,77.41,38.49,91041993.72
+Growth,Industrial,8,0.879,101.48,92.88,24.63,77.23,29.74,83360814.74
+Growth,Food & Beverage,6,0.873,101.04,92.96,25.44,79.03,27.92,61680820.85
+Decline,Biopharma Consumables,2,0.835,87.4,89.86,27.92,78.62,38.22,6308077.89
+Decline,Medical,2,0.83,86.74,89.48,34.73,78.23,42.45,5725845.28
+Decline,Food & Beverage,3,0.805,87.65,88.77,34.36,80.32,28.13,10704018.36
+Launch,Medical,5,0.787,88.13,87.84,48.3,57.42,41.92,32545634.85
+Launch,Biopharma Consumables,7,0.779,88.97,86.79,47.18,56.02,38.13,37967046.93
+Launch,Food & Beverage,1,0.763,89.43,86.77,45.46,56.29,28.66,3535642.99
+Launch,Industrial,7,0.757,88.74,87.13,49.36,54.37,29.8,45410138.71

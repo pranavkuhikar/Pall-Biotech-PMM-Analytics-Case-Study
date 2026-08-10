@@ -1,0 +1,55 @@
+PRICE ELASTICITY ROBUSTNESS ANALYSIS
+========================================================================
+
+Orders used: 4,787
+Date range: 2024-01-01 to 2025-10-01
+PPI range: 71.00 to 376.21
+Unique SKUs: 40
+Unique regions: 3
+Unique channels: 2
+Unique customer tiers: 3
+Unique quarters: 8
+
+========================================================================
+ROBUSTNESS RESULTS
+========================================================================
+
+                                        model  observations  elasticity  p_value    ci_low   ci_high  r_squared  adj_r_squared  significant_5pct direction
+                       1. Baseline pooled OLS          4787   -0.004031 0.575811 -0.018152  0.010090   0.000091      -0.000118             False  negative
+                         2. SKU fixed effects          4787   -2.938119 0.000000 -3.070631 -2.805607   0.289505       0.283517              True  negative
+               3. SKU + quarter fixed effects          4787   -3.152167 0.000000 -3.283365 -3.020970   0.336230       0.329647              True  negative
+          4. SKU + time + commercial controls          4787   -0.691976 0.000198 -1.056361 -0.327591   0.470629       0.464814              True  negative
+           5. SKU + PPI + commercial controls          4787   -0.088177 0.639667 -0.457328  0.280975   0.455890       0.450609             False  negative
+             6. Winsorised price and quantity          4787   -0.582208 0.001691 -0.945643 -0.218772   0.472881       0.467091              True  negative
+             7. Excluding discounts above 30%          4786   -0.695477 0.000188 -1.060421 -0.330532   0.470555       0.464738              True  negative
+                    8. List-price sensitivity          4787   -0.395941 0.378082 -1.276356  0.484474   0.469010       0.463178             False  negative
+                       9. Higher-revenue SKUs          2409   -0.818949 0.000062 -1.219835 -0.418064   0.469577       0.462434              True  negative
+10. Excluding bottom 5% quantity observations          4513   -0.800111 0.000018 -1.165816 -0.434407   0.443438       0.436949              True  negative
+
+========================================================================
+SUMMARY
+========================================================================
+
+Valid specifications: 10
+Negative elasticity estimates: 10
+Positive elasticity estimates: 0
+Significant negative estimates: 7
+Median elasticity: -0.693726
+Elasticity range: -3.152167 to -0.004031
+
+========================================================================
+INTERPRETATION
+========================================================================
+
+All tested specifications produce negative price elasticity estimates.
+This provides strong robustness evidence for a negative observed price-quantity relationship.
+
+IMPORTANT ECONOMETRIC LIMITATION:
+These estimates are based on observational pricing data and should not automatically be interpreted as causal demand elasticity.
+Observed prices may be endogenous to customer type, product mix, negotiated contracts, demand conditions, sales strategy and other commercial factors.
+The robustness analysis tests whether the direction and magnitude of the observed relationship are sensitive to reasonable changes in model specification and sample.
+
+FILES CREATED:
+D:\Pall-Biotech-PMM-Analytics-Case study\1.Pricing\Outputs\robustness\robustness_results.csv
+D:\Pall-Biotech-PMM-Analytics-Case study\1.Pricing\Outputs\robustness\robustness_results_summary.csv
+D:\Pall-Biotech-PMM-Analytics-Case study\1.Pricing\Outputs\robustness\robustness_summary.txt

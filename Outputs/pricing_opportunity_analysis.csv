@@ -1,0 +1,6 @@
+product_family,pall_price,competitor_avg_price,price_gap_usd,price_gap_pct,potential_price_increase_usd,potential_price_increase_pct,market_share_pct,market_share_rank,market_position,pricing_recommendation,market_position_signal,strategic_recommendation
+Cadence,2055.0,2052.5,2.5,0.12,-2.5,-0.12165450121654502,,,Leader,Avoid Further Price Increase,Market Share Data Unavailable,Maintain Pricing Discipline
+Diagnostics,2460.0,2476.67,-16.67,-0.67,16.670000000000073,0.6776422764227672,18.0,3.0,Leader,Consider Price Increase,Growth Required,Increase Price Carefully While Defending Share
+Gas Filters,1895.0,1903.75,-8.75,-0.46,8.75,0.46174142480211083,16.0,3.0,Leader,Evaluate Moderate Price Increase,Growth Required,Increase Price Carefully While Defending Share
+Pegasus,2175.0,2187.5,-12.5,-0.57,12.5,0.5747126436781609,,,Leader,Consider Price Increase,Market Share Data Unavailable,Potential Pricing Headroom
+Sterile Sets,1560.0,1560.0,0.0,0.0,0.0,0.0,,,Leader,Maintain Price,Market Share Data Unavailable,Maintain Current Position

@@ -1,0 +1,53 @@
+========================================================================
+PRICING SCENARIO ANALYSIS
+========================================================================
+
+BASELINE
+------------------------------------------------------------------------
+Orders: 4,787
+Quantity: 383,151.00
+Revenue: 725,932,554.40
+Weighted average price: 1,894.64
+Unique SKUs: 40
+
+ELASTICITY INPUT
+------------------------------------------------------------------------
+Selected model: 4. SKU + time + commercial controls
+Elasticity: -0.6920
+P-value: 0.0002
+
+INTERPRETATION
+------------------------------------------------------------------------
+The scenario model uses a constant-elasticity relationship:
+Q1 / Q0 = (P1 / P0)^elasticity
+
+Because the selected elasticity is negative, a price increase produces a modeled reduction in quantity.
+
+These scenarios are analytical estimates based on observational pricing data. They should not be interpreted as guaranteed causal outcomes.
+
+SCENARIO RESULTS
+------------------------------------------------------------------------
+Price change: -10% | Quantity change: +7.56% | Revenue change: -3.19% | Revenue impact: -23,180,940.94
+Price change: -5% | Quantity change: +3.61% | Revenue change: -1.57% | Revenue impact: -11,379,301.36
+Price change: -2% | Quantity change: +1.41% | Revenue change: -0.62% | Revenue impact: -4,503,397.75
+Price change: +0% | Quantity change: +0.00% | Revenue change: +0.00% | Revenue impact: 0.00
+Price change: +2% | Quantity change: -1.36% | Revenue change: +0.61% | Revenue impact: 4,441,496.69
+Price change: +5% | Quantity change: -3.32% | Revenue change: +1.51% | Revenue impact: 10,992,110.90
+Price change: +10% | Quantity change: -6.38% | Revenue change: +2.98% | Revenue impact: 21,627,742.36
+
+ROBUSTNESS CONTEXT
+------------------------------------------------------------------------
+Valid elasticity specifications: 10
+Median elasticity: -0.6937
+Minimum elasticity: -3.1522
+Maximum elasticity: -0.0040
+Negative estimates: 10
+Positive estimates: 0
+
+RECOMMENDATION FRAMEWORK
+------------------------------------------------------------------------
+1. Use modest price increases as the primary test scenario rather than relying on extreme changes.
+2. Prioritise SKUs and business units where modeled revenue uplift is large and commercial risk is manageable.
+3. Validate scenarios through controlled pricing tests before implementing broad price changes.
+4. Monitor quantity, revenue, discounting and customer retention after implementation.
+5. Treat the elasticity estimate as a planning parameter, not a causal truth.

@@ -1,0 +1,30 @@
+
+PLCM PORTFOLIO RISK SUMMARY
+===========================
+
+Total Initiatives : 80
+Observations      : 1920
+Average AOS       : 0.864
+
+Highest Risk Region
+-------------------
+APAC
+
+Highest Risk Business Unit
+--------------------------
+Industrial
+
+Highest Risk Initiative
+-----------------------
+Gas Filters Initiative 5
+
+Green : 722
+Amber : 1071
+Red   : 127
+
+Recommendations
+---------------
+1. Review top 25 initiatives in executive_watchlist.csv
+2. Prioritize regions with highest backlog.
+3. Improve OTD for low-performing initiatives.
+4. Review owner performance for coaching/resource allocation.
