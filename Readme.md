@@ -1,7 +1,7 @@
 # Pall Biotech Product Marketing Analytics Case Study
 # Executive Summary
 
-This project is an end to end Product Marketing Analytics case study designed around the responsibilities of a Product Marketing Data Analyst role.
+This project is an end to end Product Marketing Analytics case study.
 
 The objective was to build a decision support framework that connects commercial pricing performance, product lifecycle and execution health, and competitive intelligence into a single management view.
 
