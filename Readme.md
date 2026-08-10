@@ -565,7 +565,6 @@ Maintain current pricing while monitoring performance.
 The final Power BI solution contains four pages.
 
 Page 1: Executive Overview
-
 The page presents:
 
 Strategic combinations
@@ -574,8 +573,8 @@ High priority percentage
 Strategic priority by product family
 Recommended PMM actions
 Portfolio priority mix
-Page 2: Portfolio and Product Strategy
 
+Page 2: Portfolio and Product Strategy
 The page presents:
 
 Average gross margin
@@ -584,8 +583,9 @@ Customer adoption
 Execution by product family
 Gross margin by product family
 Customer adoption by product family
-Page 3: Pricing and Competitive Intelligence
 
+
+Page 3: Pricing and Competitive Intelligence
 The page presents:
 
 Average price gap percentage
@@ -594,8 +594,8 @@ Average price gap in dollars
 Market share by product family
 Price gap by product family
 Pall price versus competitor average
-Page 4: Strategic Decision
 
+Page 4: Strategic Decision
 The page presents:
 
 Strategic priority score
