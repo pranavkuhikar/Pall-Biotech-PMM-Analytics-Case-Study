@@ -136,6 +136,16 @@ The portfolio breaks down as:
 ### Execution Readiness
 Execution emerged as the strongest portfolio-level constraint. Approximately **59.62%** of the 104 strategic combinations fall into execution-led action categories, indicating that commercial opportunities should be sequenced behind operational readiness.
 
+## Dashboard Preview
+
+### Executive Portfolio Overview
+
+![Executive Portfolio Overview](Outputs/Executive%20Portfolio%20Overview.jpg)
+
+### Pricing & Competitive Intelligence
+
+![Pricing & Competitive Intelligence](Outputs/Pricing%20%26%20Competitive%20Intelligence.jpg)
+
 ---
 
 ## 6. Future Scope
